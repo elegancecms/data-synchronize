@@ -1,0 +1,15 @@
+<?php
+
+namespace {{ namespace }};
+
+use EleganceCMS\DataSynchronize\Exporter\Exporter;
+use EleganceCMS\DataSynchronize\Http\Controllers\ExportController;
+use {{ exporterNamespace }};
+
+class {{ class }} extends ExportController
+{
+    protected function getExporter(): Exporter
+    {
+        return {{ exporter }}::make();
+    }
+}
