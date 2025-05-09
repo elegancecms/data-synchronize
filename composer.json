@@ -1,6 +1,7 @@
 {
     "name": "elegancecms/data-synchronize",
     "description": "Make site ready in few steps",
+    "license": "MIT",
     "type": "elegancecms-package",
     "autoload": {
         "psr-4": {
